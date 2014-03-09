@@ -6,7 +6,7 @@ class AgeAfter10Years
     static void Main(string[] args)
     {
         
-        Console.WriteLine("Enter your age(try yyyy.m.d)");
+        Console.WriteLine("Enter your birthday(try yyyy.m.d)");
         DateTime birthDay = DateTime.Parse(Console.ReadLine());
         DateTime today = DateTime.Now;
         int age = today.Year - birthDay.Year;
