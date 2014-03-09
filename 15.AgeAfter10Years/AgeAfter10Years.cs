@@ -8,6 +8,7 @@ class AgeAfter10Years
         
         Console.WriteLine("Enter your age");
         int age = int.Parse(Console.ReadLine());
+        Console.WriteLine("You are {0} years old.", age);
         Console.WriteLine("After 10 years you will be {0} years old", age + 10);
     }
 }
